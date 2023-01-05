@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "resumed render --output index.html",
+    "validate": "resumed validate"
+  },
+  "dependencies": {
+    "jsonresume-theme-full": "^0.0.4",
+    "resumed": "^3.0.1"
+  }
+}

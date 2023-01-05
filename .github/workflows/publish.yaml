@@ -1,0 +1,29 @@
+name: Build
+
+on:
+    push:
+        branches: [master]
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+            
+            - name: Setup node environment
+              uses: actions/setup-node@v3
+
+            - name: Install Node.js dependencies
+              run: npm ci --no-audit
+
+            - name: Run build script
+              run: npm run build
+
+            - name: Commit changes
+              run: |
+                git config --global user.email "24963659+crobibero@users.noreply.github.com"
+                git config --global user.name "crobibero"
+                git commit -am 'Automated build'
+                git push

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Cody Robibero",
+    "label": "Software Engineer",
+    "email": "cody@robibe.ro",
+    "phone": "(201) 785-4944",
+    "url": "https://codyrobibero.dev",
+    "summary": "Full-stack software engineer with a focus on API/Backend development",
+    "location": {
+      "postalCode": "80015",
+      "city": "Aurora",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "crobibero",
+        "url": "https://github.com/crobibero"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "codyrobibero",
+        "url": "https://linkedin.com/in/codyrobibero"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nymbl Science",
+      "location": "Denver, CO",
+      "description": "A highly engaged digital health program that addresses the top anxiety points of aging",
+      "position": "Senior Software Engineer",
+      "url": "https://nymblscience.com",
+      "startDate": "2021-03",
+      "summary": "Full-stack development with a focus on API development",
+      "highlights": [
+        "Migration from .NET Framework to .NET 7.0",
+        "Migration from ASP.NET Framework to ASP.NET Core WebAPI",
+        "Internal toolkit based on .NET Maui for PGP encryption and decryption",
+        "Scheduled eligibility file processing",
+        "Implement views and functionality into the Xamarin mobile application"
+      ]
+    },
+    {
+      "name": "Dial800",
+      "location": "Mahwah, NJ",
+      "description": "Call and text analytics for inbound and outbound communications",
+      "position": "Software Engineer",
+      "url": "https://dial800.com",
+      "startDate": "2017-12",
+      "endDate": "2021-02",
+      "summary": "Resposible for all client-facing infastructure",
+      "highlights": [
+        "Client Portal - Allow clients to view call history, manage call routing, and create report templates",
+        "Dashboard Service - Service to summerize customer call and sms data into a customizable and dynamic dashboard",
+        "Report Service - Generate scheduled dynamic reports based on client templates",
+        "SMS Service - Send and recieve sms to Toll-Free numbers",
+        "Web Phone - WebRTC to SIP based phone client",
+        "Conference - WebRTC video converencing",
+        "Number API - API to lease, reserve, and search for available phone numbers",
+        "Billing Platform - Automated invoide generation and customer rate management"
+      ]
+    },
+    {
+      "name": "ClassLink Inc",
+      "location": "Clifton, NJ",
+      "description": "Digital education solution",
+      "position": "Software Engineer",
+      "url": "https://classlink.com",
+      "startDate": "2016-10",
+      "endDate": "2017-12",
+      "summary": "Resposible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory"
+    },
+    {
+      "name": "HVEA Engineers",
+      "location": "Chestnut Ridge, NY",
+      "description": "Consulting Engineers and Construction Material Testing",
+      "position": "IT Specialist",
+      "url": "https://hveapc.com",
+      "startDate": "2016-08",
+      "endDate": "2016-10",
+      "summary": "Created an internal website for collecting and managing samples, tests, reports, and schedules"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Rensselaer Polytechnic Institute",
+      "url": "https://rpi.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelors of Science",
+      "startDate": "2021-09",
+      "endDate": "2016-05"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "ASPNET Core",
+        "C#",
+        "OpenIddict"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "keywords": [
+        "Xamarin",
+        "MVVM",
+        "C#"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Danish",
+      "fluency": "Limited working"
+    }
+  ],
+  "interests": [],
+  "projects": [
+    {
+      "name": "Jellyfin Media Server",
+      "description": "The Free Software Media System",
+      "highlights": [],
+      "startDate": "2020-05",
+      "url": "https://jellyfin.org",
+      "roles": [
+        "Core Server Team",
+        "Lead Plugin Team"
+      ]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2023-10-12",
+    "theme": "jsonresume-theme-full"
+  }
+}
