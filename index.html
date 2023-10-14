@@ -1,0 +1,515 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Cody Robibero  - Software Engineer</title>
+	<style>
+  	:root {
+  --accent:#BC1B39;
+  --anchor-color: #2C85B1;
+  --blue:#2C85B1;
+  --copy-color-light: #666666;
+  --copy-color: #242424;
+  --grey:#999999;
+  --light-grey:#ededed;
+  --white:#FFFFFF;
+  --base-font-size: 12pt;
+  --spacing-double: 1rem;
+  --spacing-small: .1rem;
+  --spacing: .5rem;
+}
+@media (min-width: 567px) {
+  :root {
+    --spacing-double: 1.5rem;
+    --spacing-small: .25rem;
+    --spacing: .75rem;
+  }
+}
+@media print {
+  :root {
+    --anchor-color: #000000;
+    --base-font-size: 9pt;
+    --copy-color-light: #000000;
+    --copy-color: #000000;
+  }
+}
+
+body {
+  color: var(--copy-color);
+  display: flex;
+  font: var(--base-font-size) "Open Sans", Helvetica, Arial, sans-serif;
+  justify-content: center;
+  line-height: 1.25;
+  -webkit-print-color-adjust: exact;
+}
+
+em {
+  color: var(--grey);
+}
+
+p {
+  font-size: 90%;
+}
+
+a {
+  color: var(--anchor-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+section {
+  margin: var(--spacing) 0 var(--spacing-double);
+}
+
+blockquote {
+  margin-bottom: 0 0 var(--spacing);
+}
+
+#resume {
+  background: var(--white);
+  margin: var(--spacing) var(--spacing-double);
+  max-width: 760px;
+}
+
+section.heading header h1 {
+  font-size: 180%;
+  font-weight: 300;
+  margin: 0;
+}
+section.heading header h2 {
+  font-size: 140%;
+  font-weight: 400;
+  margin: 0;
+}
+section.heading header h2::after {
+  display: none;
+}
+section.heading header .contact {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading header .contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+section.heading header address {
+  font-size: 90%;
+  font-style: normal;
+  padding-bottom: var(--spacing);
+}
+section.heading .profiles {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--spacing);
+}
+@media (min-width: 567px) {
+  section.heading .profiles {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+section.heading .profiles .profile.print {
+  display: none;
+}
+@media print {
+  section.heading .profiles .profile.print {
+    display: block;
+  }
+}
+section.heading .profiles strong {
+  margin: 0 var(--spacing-small) 0 0;
+}
+section.heading .profiles span {
+  margin: 0 var(--spacing-double) 0 0;
+}
+
+section.experience .item {
+  border-bottom: 1px solid var(--light-grey);
+  margin: 0 0 0.5em;
+  padding: 0 0 0.5em;
+}
+section.experience .item:last-child {
+  border-bottom: none;
+}
+section.experience .item header a,
+section.experience .item header h3 {
+  color: var(--copy-color);
+  display: inline-block;
+  font-weight: 400;
+  text-decoration: none;
+}
+@media (max-width: 566px) {
+  section.experience .item header .subhead {
+    flex-direction: column;
+    margin-bottom: var(--spacing-double);
+  }
+}
+section.experience .item .summary p {
+  margin-top: var(--spacing);
+}
+section.experience .item .summary p:first-child {
+  margin-top: var(--spacing-small);
+}
+section.experience .item .summary p:last-child {
+  margin-bottom: var(--spacing-small);
+}
+section.experience .item .position {
+  color: var(--copy-color-light);
+  font-size: 100%;
+  font-weight: 500;
+  margin: var(--spacing-small) 0;
+}
+section.experience .item .startDate,
+section.experience .item .endDate {
+  color: var(--grey);
+}
+section.skills .item {
+  margin: 0;
+  padding: 0 0 var(--spacing);
+}
+section.skills .item:first-child {
+  margin-top: var(--spacing);
+}
+section.skills .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.skills .item .name {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.skills .item .keywords {
+  display: inline-block;
+  font-size: 90%;
+  vertical-align: top;
+}
+
+section.volunteering .item .position {
+  font-weight: 600;
+}
+section.volunteering .item header .subhead {
+  margin-top: var(--spacing);
+}
+section.projects .item strong {
+  color: var(--copy-color-light);
+  font-weight: 600;
+  display: inline-block;
+  padding-top: var(--spacing);
+}
+section.awards .item .title {
+  font-weight: 600;
+}
+section.publications .item .name {
+  font-weight: 600;
+}
+section.languages .language-item {
+  align-items: baseline;
+  display: flex;
+  justify-content: start;
+}
+section.languages .language-item:first-child {
+  margin-top: var(--spacing);
+}
+section.languages .language-item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.languages .language-item .language {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+section.languages .language-item .fluency {
+  color: var(--copy-color-light);
+  font-style: italic;
+}
+
+section.interests .item {
+  margin-bottom: var(--spacing);
+}
+section.interests .item:last-child {
+  margin-bottom: var(--spacing);
+}
+section.interests .item .name {
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 600;
+  margin: 0 var(--spacing) 0 0;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+section.references .item blockquote {
+  font-style: italic;
+  margin-bottom: 0;
+  margin-left: var(--spacing);
+}
+section.references .item .name {
+  color: var(--copy-color-light);
+}
+
+section h2 {
+  color: var(--accent);
+  font-size: 135%;
+  font-weight: 400;
+  margin: 0 0 var(--spacing-double);
+  position: relative;
+  text-transform: uppercase;
+}
+section h2::after {
+  background: var(--accent);
+  bottom: -10px;
+  content: " ";
+  display: inline-block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 2.5rem;
+}
+section header h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+section.experience .item .highlights, section.volunteering .highlights, section.projects .highlights,
+section.projects .keywords,
+section.projects .roles, section.education .item .courses {
+  font-size: 90%;
+  line-height: 1.3;
+  list-style: square;
+  margin: var(--spacing-small) 0 var(--spacing);
+  padding-left: var(--spacing-double);
+}
+
+section.experience .item, section.volunteering .item, section.projects .item, section.education .item, section.awards .item, section.publications .item, section.interests .item, section.references .item {
+  page-break-inside: avoid;
+}
+
+@media print {
+  section.heading .profiles .profile:not(.print), section.publications .item .website {
+    display: none;
+  }
+}
+
+section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 567px) {
+  section.experience .item header .subhead, section.volunteering .item header .subhead, section.projects .item header, section.education .item header, section.awards .item header, section.publications .item .subhead {
+    flex-direction: row;
+  }
+}
+
+@media print {
+  body {
+    font-size: 11pt;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+	</style>
+	<style media="print">
+		body { font-size: 12px; }
+	</style>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	
+	</head>
+  <body>	
+    <div id="resume">
+      <section id="heading" class="heading">
+        <header>
+          <h1>
+            Cody Robibero
+          </h1>
+          <h2>Software Engineer</h2>
+          <div class="summary"><p>Full-stack software engineer with a focus on API/Backend development</p></div>
+          <div class="contact">
+            <span class="contact-detail"><a href="mailto:cody@robibe.ro">cody@robibe.ro</a></span>
+            <span class="contact-detail">(201) 785-4944</span>
+            <span class="contact-detail"><a href="https://codyrobibero.dev" target="external">https://codyrobibero.dev</a></span>
+          </div>
+          <address>
+            <span class="address-detail">Aurora,</span>
+            <span class="address-detail">Colorado</span>
+            <span class="address-detail">80015</span>
+            <span class="address-detail">US</span>
+          </address>
+        </header>
+      
+        <div class="profiles">
+          <div class="profile">
+            <strong class="network">GitHub</strong>
+            <span class="username">
+              <a href="https://github.com/crobibero" target="external">@crobibero</a>
+            </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://github.com/crobibero
+            </span>
+          </div>
+          <div class="profile">
+            <strong class="network">LinkedIn</strong>
+            <span class="username">
+              <a href="https://linkedin.com/in/codyrobibero" target="external">@codyrobibero</a>
+            </span>
+          </div>
+          <div class="profile print">
+            <span class="username">
+              https://linkedin.com/in/codyrobibero
+            </span>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <section class="item">
+          <h2>Experience</h2>
+          <header>
+            <h3 class="name"><a href="https://nymblscience.com" target="external">Nymbl Science</a></h3>
+            <div class="subhead">
+            <span class="position">Senior Software Engineer</span>
+            <small class="dates">Mar 2021
+             - Present</small>
+            </div>
+          </header>
+          <div class="summary"><p>Full-stack development with a focus on API development</p></div>
+          <ul class="highlights">
+            <li>Migration from .NET Framework to .NET 7.0</li>
+            <li>Migration from ASP.NET Framework to ASP.NET Core WebAPI</li>
+            <li>Internal toolkit based on .NET Maui for PGP encryption and decryption</li>
+            <li>Scheduled eligibility file processing</li>
+            <li>Implement views and functionality into the Xamarin mobile application</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://dial800.com" target="external">Dial800</a></h3>
+            <div class="subhead">
+            <span class="position">Software Engineer</span>
+            <small class="dates">Dec 2017
+             - Feb 2021</small>
+            </div>
+          </header>
+          <div class="summary"><p>Resposible for all client-facing infastructure</p></div>
+          <ul class="highlights">
+            <li>Client Portal - Allow clients to view call history, manage call routing, and create report templates</li>
+            <li>Dashboard Service - Service to summerize customer call and sms data into a customizable and dynamic dashboard</li>
+            <li>Report Service - Generate scheduled dynamic reports based on client templates</li>
+            <li>SMS Service - Send and recieve sms to Toll-Free numbers</li>
+            <li>Web Phone - WebRTC to SIP based phone client</li>
+            <li>Conference - WebRTC video converencing</li>
+            <li>Number API - API to lease, reserve, and search for available phone numbers</li>
+            <li>Billing Platform - Automated invoide generation and customer rate management</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://classlink.com" target="external">ClassLink Inc</a></h3>
+            <div class="subhead">
+            <span class="position">Software Engineer</span>
+            <small class="dates">Oct 2016
+             - Dec 2017</small>
+            </div>
+          </header>
+          <div class="summary"><p>Resposible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory</p></div>
+        </section>
+        <section class="item">
+          <header>
+            <h3 class="name"><a href="https://hveapc.com" target="external">HVEA Engineers</a></h3>
+            <div class="subhead">
+            <span class="position">IT Specialist</span>
+            <small class="dates">Aug 2016
+             - Oct 2016</small>
+            </div>
+          </header>
+          <div class="summary"><p>Created an internal website for collecting and managing samples, tests, reports, and schedules</p></div>
+        </section>
+      </section>
+      <section id="skills" class="skills">
+        <div class="item">
+          <h2>Skills</h2>
+          <div class="name">Backend Development</div>
+          <div class="keywords">
+            ASPNET Core,
+            C#,
+            OpenIddict
+          </div>
+        </div>
+        <div class="item">
+          <div class="name">Mobile Development</div>
+          <div class="keywords">
+            Xamarin,
+            MVVM,
+            C#
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <section class="item">
+          <h2>Projects</h2>
+          <header>
+            <h3 class="name">Jellyfin Media Server</h3>
+            <small class="subhead">May 2020
+             - Present</small>
+          </header>
+            <strong>Roles</strong>
+          <ul class="roles">
+            <li>Core Server Team</li>
+            <li>Lead Plugin Team</li>
+          </ul>
+        </section>
+      </section>
+      <section id="education" class="education">
+        <div class="item">
+          <h2>Education</h2>
+          <header>
+              <h3 class="name">Rensselaer Polytechnic Institute</h3>
+            <small class="dates">
+              <span class="startDate">Sep 2021</span>
+              <span class="endDate"> - May 2016</span>
+            </small>
+          </header>
+          <div class="qualification">
+            <span class="studyType">Bachelors of Science</span>
+            <span class="area">Computer Science</span>
+          </div>
+        </div>
+      </section>
+      <section id="languages" class="languages">
+        <div class="item">
+          <h2>Languages</h2>
+          <div class="language-item">
+            <span class="language">English:</span>
+            <span class="fluency">Native speaker</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="language-item">
+            <span class="language">Danish:</span>
+            <span class="fluency">Limited working</span>
+          </div>
+        </div>
+      </section>
+    </div>
+	</body>
+</html>
