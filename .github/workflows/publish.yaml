@@ -21,6 +21,13 @@ jobs:
             - name: Run build script
               run: npm run build
 
+            - name: Generate pdf
+              uses: fifsky/html-to-pdf-action@master
+              with:
+                htmlFile: ./index.html
+                outputFile: ./resume.pdf
+                pdfOptions: '{"format": "letter"}'
+
             - name: Commit changes
               run: |
                 git config --global user.email "24963659+crobibero@users.noreply.github.com"
