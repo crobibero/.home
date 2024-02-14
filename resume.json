@@ -2,11 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Cody Robibero",
-    "label": "Software Engineer",
-    "email": "cody@robibe.ro",
+    "label": "Senior Software Engineer",
+    "email": "contact@codyrobibero.dev",
     "phone": "(201) 785-4944",
     "url": "https://codyrobibero.dev",
-    "summary": "Full-stack software engineer with a focus on API/Backend development",
     "location": {
       "postalCode": "80015",
       "city": "Aurora",
@@ -28,6 +27,19 @@
   },
   "work": [
     {
+      "name": "RingSquared",
+      "location": "Denver, CO",
+      "description": "Trusted provider for end-to-end managed voice, analytics & data solutions",
+      "position": "Senior Software Engineer - Contract",
+      "url": "https://www.ringsquared.com",
+      "startDate": "2024-03-01",
+      "endDate": "2024-08-31",
+      "highlights": [
+        "Streamlined ingestion process of millions of call records",
+        "Automated process of client call record delivery for 30,000+ customers"
+      ]
+    },
+    {
       "name": "Nymbl Science",
       "location": "Denver, CO",
       "description": "A highly engaged digital health program that addresses the top anxiety points of aging",
@@ -35,9 +47,9 @@
       "url": "https://nymblscience.com",
       "startDate": "2021-03-01",
       "endDate": "2024-02-13",
-      "summary": "Full-stack development with a focus on API development",
+      "summary": "Full-stack development with a focus on API functionality",
       "highlights": [
-        "Migration from .NET Framework to .NET 7.0",
+        "Migration from .NET Framework to .NET 7",
         "Migration from ASP.NET Framework to ASP.NET Core WebAPI",
         "Migration from Xamarin.Forms to .NET Maui",
         "Migration from Entity Framework 6 to Entity Framework Core 7",
@@ -45,7 +57,7 @@
         "Automated processing of user eligibility files",
         "Implement backend functionality to serve multiple web applications and mobile application",
         "Implement views and functionality into the Xamarin.Forms mobile application",
-        "CI/CD pipline to publish the .NET Maui mobile application to BrowserStack, TestFlight, and Play Store alpha channel utilizing GitHub Actions",
+        "CI/CD pipeline to publish the .NET Maui mobile application to BrowserStack, TestFlight, and Play Store alpha channel utilizing GitHub Actions",
         "CI/CD pipeline to publish the .NET ASP.NET Core WebAPI to Azure WebApp",
         "CI/CD pipeline to publish multiple Vue.js applications to Azure Static Web Apps" 
       ]
@@ -58,16 +70,16 @@
       "url": "https://dial800.com",
       "startDate": "2017-12-18",
       "endDate": "2021-02-26",
-      "summary": "Resposible for all client-facing infastructure",
+      "summary": "Responsible for all client-facing infrastructure",
       "highlights": [
         "Client Portal - Allow clients to view call history, manage call routing, and create report templates",
-        "Dashboard Service - Service to summerize customer call and sms data into a customizable and dynamic dashboard",
+        "Dashboard Service - Service to summarize customer call and sms data into a customizable and dynamic dashboard",
         "Report Service - Generate scheduled dynamic reports based on client templates",
-        "SMS Service - Send and recieve sms to Toll-Free numbers",
+        "SMS Service - Send and receive sms to Toll-Free numbers",
         "Web Phone - WebRTC to SIP based phone client",
-        "Conference - WebRTC video converencing",
+        "Conference - WebRTC video conferencing",
         "Number API - API to lease, reserve, and search for available phone numbers",
-        "Billing Platform - Automated invoide generation and customer rate management"
+        "Billing Platform - Automated invoice generation and customer rate management"
       ]
     },
     {
@@ -78,7 +90,7 @@
       "url": "https://classlink.com",
       "startDate": "2016-10-24",
       "endDate": "2017-12-15",
-      "summary": "Resposible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory"
+      "summary": "Responsible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory"
     },
     {
       "name": "HVEA Engineers",
@@ -147,13 +159,18 @@
       "roles": [
         "Core Server Team",
         "Lead Plugin Team"
+      ],
+      "highlights": [
+        "Implement new server functionality and maintain existing functionality",
+        "Create new and maintain 30+ plugins to enhance server functionality",
+        "Conduct design and code reviews"
       ]
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
-    "version": "2024.02.14",
-    "lastModified": "2024-02-14",
+    "version": "2024.03.10",
+    "lastModified": "2024-03-10",
     "theme": "jsonresume-theme-full"
   }
 }
