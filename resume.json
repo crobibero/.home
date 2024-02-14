@@ -33,14 +33,21 @@
       "description": "A highly engaged digital health program that addresses the top anxiety points of aging",
       "position": "Senior Software Engineer",
       "url": "https://nymblscience.com",
-      "startDate": "2021-03",
+      "startDate": "2021-03-01",
+      "endDate": "2024-02-13",
       "summary": "Full-stack development with a focus on API development",
       "highlights": [
         "Migration from .NET Framework to .NET 7.0",
         "Migration from ASP.NET Framework to ASP.NET Core WebAPI",
-        "Internal toolkit based on .NET Maui for PGP encryption and decryption",
-        "Scheduled eligibility file processing",
-        "Implement views and functionality into the Xamarin mobile application"
+        "Migration from Xamarin.Forms to .NET Maui",
+        "Migration from Entity Framework 6 to Entity Framework Core 7",
+        "Internal application built in .NET Maui for PGP encryption and decryption",
+        "Automated processing of user eligibility files",
+        "Implement backend functionality to serve multiple web applications and mobile application",
+        "Implement views and functionality into the Xamarin.Forms mobile application",
+        "CI/CD pipline to publish the .NET Maui mobile application to BrowserStack, TestFlight, and Play Store alpha channel utilizing GitHub Actions",
+        "CI/CD pipeline to publish the .NET ASP.NET Core WebAPI to Azure WebApp",
+        "CI/CD pipeline to publish multiple Vue.js applications to Azure Static Web Apps" 
       ]
     },
     {
@@ -49,8 +56,8 @@
       "description": "Call and text analytics for inbound and outbound communications",
       "position": "Software Engineer",
       "url": "https://dial800.com",
-      "startDate": "2017-12",
-      "endDate": "2021-02",
+      "startDate": "2017-12-18",
+      "endDate": "2021-02-26",
       "summary": "Resposible for all client-facing infastructure",
       "highlights": [
         "Client Portal - Allow clients to view call history, manage call routing, and create report templates",
@@ -69,8 +76,8 @@
       "description": "Digital education solution",
       "position": "Software Engineer",
       "url": "https://classlink.com",
-      "startDate": "2016-10",
-      "endDate": "2017-12",
+      "startDate": "2016-10-24",
+      "endDate": "2017-12-15",
       "summary": "Resposible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory"
     },
     {
@@ -79,8 +86,8 @@
       "description": "Consulting Engineers and Construction Material Testing",
       "position": "IT Specialist",
       "url": "https://hveapc.com",
-      "startDate": "2016-08",
-      "endDate": "2016-10",
+      "startDate": "2016-08-15",
+      "endDate": "2016-10-21",
       "summary": "Created an internal website for collecting and managing samples, tests, reports, and schedules"
     }
   ],
@@ -100,15 +107,24 @@
       "keywords": [
         "ASPNET Core",
         "C#",
-        "OpenIddict"
+        "OpenIddict",
+        "Azure"
       ]
     },
     {
       "name": "Mobile Development",
       "keywords": [
         "Xamarin",
+        "Maui",
         "MVVM",
         "C#"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "GitHub Actions",
+        "Azure Pipelines"
       ]
     }
   ],
@@ -122,12 +138,10 @@
       "fluency": "Limited working"
     }
   ],
-  "interests": [],
   "projects": [
     {
       "name": "Jellyfin Media Server",
       "description": "The Free Software Media System",
-      "highlights": [],
       "startDate": "2020-05",
       "url": "https://jellyfin.org",
       "roles": [
@@ -137,9 +151,9 @@
     }
   ],
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2023-10-12",
+    "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
+    "version": "2024.02.14",
+    "lastModified": "2024-02-14",
     "theme": "jsonresume-theme-full"
   }
 }

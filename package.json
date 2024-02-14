@@ -1,10 +1,13 @@
 {
   "scripts": {
-    "build": "resumed render --output index.html",
+    "build": "cross-env TZ=UTC resumed render --output index.html",
     "validate": "resumed validate"
   },
   "dependencies": {
     "jsonresume-theme-full": "^0.0.4",
     "resumed": "^3.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
