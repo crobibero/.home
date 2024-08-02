@@ -35,7 +35,8 @@
       "startDate": "2024-03-01",
       "highlights": [
         "Streamlined ingestion process of millions of call records",
-        "Automated process of client call record delivery for 30,000+ customers"
+        "Automated process of client call record delivery for 30,000+ customers",
+        "Automated Microsoft Office365 provisioning of Teams Direct Dial using Microsoft Graph API and the Microsoft Teams powershell module"
       ]
     },
     {
@@ -168,8 +169,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
-    "version": "2024.03.10",
-    "lastModified": "2024-03-10",
+    "version": "2024.08.02",
+    "lastModified": "2024-08-02",
     "theme": "jsonresume-theme-full"
   }
 }
