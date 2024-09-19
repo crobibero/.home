@@ -117,7 +117,7 @@
     {
       "name": "Backend Development",
       "keywords": [
-        "ASPNET Core",
+        "ASP.NET Core",
         "C#",
         "OpenIddict",
         "Azure"
@@ -130,6 +130,22 @@
         "Maui",
         "MVVM",
         "C#"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "Blazor",
+        "Razor Pages",
+        "ASP.NET Core MVC",
+        "ASP.NET Web Forms"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+        "Microsoft SQL Server",
+        "PostgreSQL"
       ]
     },
     {
@@ -169,8 +185,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
-    "version": "2024.08.02",
-    "lastModified": "2024-08-02",
+    "version": "2024.09.19",
+    "lastModified": "2024-09-19",
     "theme": "jsonresume-theme-full"
   }
 }
