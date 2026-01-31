@@ -342,6 +342,7 @@ section.experience .item header .subhead, section.volunteering .item header .sub
             Cody Robibero
           </h1>
           <h2>Senior Software Engineer</h2>
+          <div class="summary"><p>Senior Software Engineer with 8+ years of experience building, modernizing, and operating .NET-based backend, web, and mobile systems. Specialized in large-scale platform migrations, API design, and CI/CD automation with GitHub Actions. Proven track record supporting high-volume, customer-facing products and leading complex technical initiatives.</p></div>
           <div class="contact">
             <span class="contact-detail"><a href="mailto:contact@codyrobibero.dev">contact@codyrobibero.dev</a></span>
             <span class="contact-detail">(201) 785-4944</span>
@@ -384,6 +385,23 @@ section.experience .item header .subhead, section.volunteering .item header .sub
         <section class="item">
           <h2>Experience</h2>
           <header>
+            <h3 class="name"><a href="https://ownerrez.com" target="external">OwnerRez</a></h3>
+            <div class="subhead">
+            <span class="position">Senior Software Engineer</span>
+            <small class="dates">Nov 2024
+             - Present</small>
+            </div>
+          </header>
+          <div class="summary"><p>Focused on building and maintaining high-traffic SaaS features and third-party channel integrations for a vacation rental management platform</p></div>
+          <ul class="highlights">
+            <li>Implemented customer-facing product features using ASP.NET MVC (Razor Pages) in collaboration with product and design teams</li>
+            <li>Delivered Booking.com contracting and onboarding workflows supporting partner integrations at scale</li>
+            <li>Implemented and maintained Vrbo onboarding flows to streamline customer adoption</li>
+            <li>Provided engineering support through technical help desk triage and issue resolution</li>
+          </ul>
+        </section>
+        <section class="item">
+          <header>
             <h3 class="name"><a href="https://www.ringsquared.com" target="external">RingSquared</a></h3>
             <div class="subhead">
             <span class="position">Senior Software Engineer - Contract</span>
@@ -392,9 +410,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
             </div>
           </header>
           <ul class="highlights">
-            <li>Streamlined ingestion process of millions of call records</li>
-            <li>Automated process of client call record delivery for 30,000+ customers</li>
-            <li>Automated Microsoft Office365 provisioning of Teams Direct Dial using Microsoft Graph API and the Microsoft Teams powershell module</li>
+            <li>Streamlined ingestion pipelines processing millions of call records with improved reliability and throughput</li>
+            <li>Automated delivery of customer call records for 30,000+ clients</li>
+            <li>Built and automated Microsoft Office 365 and Teams Direct Routing provisioning using Microsoft Graph API and PowerShell</li>
+            <li>Modernized legacy .NET Framework services by upgrading to .NET 8</li>
           </ul>
         </section>
         <section class="item">
@@ -406,19 +425,15 @@ section.experience .item header .subhead, section.volunteering .item header .sub
              - Feb 2024</small>
             </div>
           </header>
-          <div class="summary"><p>Full-stack development with a focus on API functionality</p></div>
+          <div class="summary"><p>Full-stack development with a focus on scalable backend APIs and platform modernization</p></div>
           <ul class="highlights">
-            <li>Migration from .NET Framework to .NET 7</li>
-            <li>Migration from ASP.NET Framework to ASP.NET Core WebAPI</li>
-            <li>Migration from Xamarin.Forms to .NET Maui</li>
-            <li>Migration from Entity Framework 6 to Entity Framework Core 7</li>
-            <li>Internal application built in .NET Maui for PGP encryption and decryption</li>
-            <li>Automated processing of user eligibility files</li>
-            <li>Implement backend functionality to serve multiple web applications and mobile application</li>
-            <li>Implement views and functionality into the Xamarin.Forms mobile application</li>
-            <li>CI/CD pipeline to publish the .NET Maui mobile application to BrowserStack, TestFlight, and Play Store alpha channel utilizing GitHub Actions</li>
-            <li>CI/CD pipeline to publish the .NET ASP.NET Core WebAPI to Azure WebApp</li>
-            <li>CI/CD pipeline to publish multiple Vue.js applications to Azure Static Web Apps</li>
+            <li>Led full modernization of backend systems from .NET Framework to .NET 7, including migration to ASP.NET Core WebAPI and Entity Framework Core</li>
+            <li>Migrated mobile applications from Xamarin.Forms to .NET MAUI</li>
+            <li>Designed and implemented backend services supporting multiple web and mobile applications</li>
+            <li>Built internal .NET MAUI tooling for PGP encryption and decryption workflows</li>
+            <li>Automated ingestion and processing of user eligibility files</li>
+            <li>Designed and maintained CI/CD pipelines using GitHub Actions for mobile, API, and frontend deployments across Azure</li>
+            <li>Published mobile applications to BrowserStack, TestFlight, and Google Play alpha channels</li>
           </ul>
         </section>
         <section class="item">
@@ -430,16 +445,15 @@ section.experience .item header .subhead, section.volunteering .item header .sub
              - Feb 2021</small>
             </div>
           </header>
-          <div class="summary"><p>Responsible for all client-facing infrastructure</p></div>
+          <div class="summary"><p>Responsible for design and implementation of all client-facing infrastructure</p></div>
           <ul class="highlights">
-            <li>Client Portal - Allow clients to view call history, manage call routing, and create report templates</li>
-            <li>Dashboard Service - Service to summarize customer call and sms data into a customizable and dynamic dashboard</li>
-            <li>Report Service - Generate scheduled dynamic reports based on client templates</li>
-            <li>SMS Service - Send and receive sms to Toll-Free numbers</li>
-            <li>Web Phone - WebRTC to SIP based phone client</li>
-            <li>Conference - WebRTC video conferencing</li>
-            <li>Number API - API to lease, reserve, and search for available phone numbers</li>
-            <li>Billing Platform - Automated invoice generation and customer rate management</li>
+            <li>Developed a client portal for call history review, call routing management, and custom reporting</li>
+            <li>Built analytics services to aggregate and visualize call and SMS data in dynamic dashboards</li>
+            <li>Implemented scheduled reporting services driven by customer-defined templates</li>
+            <li>Designed and maintained SMS services for toll-free messaging</li>
+            <li>Built WebRTC-based web phone and video conferencing solutions</li>
+            <li>Developed APIs for phone number leasing, reservation, and search</li>
+            <li>Implemented automated billing and invoice generation platforms</li>
           </ul>
         </section>
         <section class="item">
@@ -451,7 +465,7 @@ section.experience .item header .subhead, section.volunteering .item header .sub
              - Dec 2017</small>
             </div>
           </header>
-          <div class="summary"><p>Responsible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory</p></div>
+          <div class="summary"><p>Developed OneSync, a web-based service for automated account provisioning into Microsoft Active Directory and Google Directory</p></div>
         </section>
         <section class="item">
           <header>
@@ -462,27 +476,34 @@ section.experience .item header .subhead, section.volunteering .item header .sub
              - Oct 2016</small>
             </div>
           </header>
-          <div class="summary"><p>Created an internal website for collecting and managing samples, tests, reports, and schedules</p></div>
+          <div class="summary"><p>Designed and built an internal web application to manage samples, testing workflows, reports, and scheduling</p></div>
         </section>
       </section>
       <section id="skills" class="skills">
         <div class="item">
           <h2>Skills</h2>
-          <div class="name">Backend Development</div>
+          <div class="name">Backend &amp; APIs</div>
           <div class="keywords">
-            ASP.NET Core,
             C#,
-            OpenIddict,
-            Azure
+            ASP.NET Core,
+            REST APIs,
+            OpenIddict
+          </div>
+        </div>
+        <div class="item">
+          <div class="name">Cloud &amp; DevOps</div>
+          <div class="keywords">
+            Azure,
+            GitHub Actions,
+            CI/CD
           </div>
         </div>
         <div class="item">
           <div class="name">Mobile Development</div>
           <div class="keywords">
-            Xamarin,
-            Maui,
-            MVVM,
-            C#
+            Xamarin.Forms,
+            .NET MAUI,
+            MVVM
           </div>
         </div>
         <div class="item">
@@ -490,22 +511,14 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           <div class="keywords">
             Blazor,
             Razor Pages,
-            ASP.NET Core MVC,
-            ASP.NET Web Forms
+            ASP.NET Core MVC
           </div>
         </div>
         <div class="item">
-          <div class="name">Database</div>
+          <div class="name">Databases</div>
           <div class="keywords">
             Microsoft SQL Server,
             PostgreSQL
-          </div>
-        </div>
-        <div class="item">
-          <div class="name">DevOps</div>
-          <div class="keywords">
-            GitHub Actions,
-            Azure Pipelines
           </div>
         </div>
       </section>
@@ -519,9 +532,10 @@ section.experience .item header .subhead, section.volunteering .item header .sub
           </header>
           <strong>Highlights</strong>
           <ul class="highlights">
-            <li>Implement new server functionality and maintain existing functionality</li>
-            <li>Create new and maintain 30+ plugins to enhance server functionality</li>
-            <li>Conduct design and code reviews</li>
+            <li>Core contributor to a large open-source media platform used by hundreds of thousands of users worldwide</li>
+            <li>Led and maintained the Jellyfin plugin ecosystem with 30+ actively maintained plugins</li>
+            <li>Designed and implemented new server functionality while maintaining existing core features</li>
+            <li>Conducted design and code reviews for community and core contributors</li>
           </ul>
             <strong>Roles</strong>
           <ul class="roles">
@@ -541,7 +555,7 @@ section.experience .item header .subhead, section.volunteering .item header .sub
             </small>
           </header>
           <div class="qualification">
-            <span class="studyType">Bachelors of Science</span>
+            <span class="studyType">Bachelor of Science</span>
             <span class="area">Computer Science</span>
           </div>
         </div>
@@ -557,7 +571,7 @@ section.experience .item header .subhead, section.volunteering .item header .sub
         <div class="item">
           <div class="language-item">
             <span class="language">Danish:</span>
-            <span class="fluency">Limited working</span>
+            <span class="fluency">Limited working proficiency</span>
           </div>
         </div>
       </section>
