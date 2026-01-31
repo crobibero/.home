@@ -3,7 +3,7 @@
   "basics": {
     "name": "Cody Robibero",
     "label": "Senior Software Engineer",
-    "summary": "Senior Software Engineer with 8+ years of experience building, modernizing, and operating .NET-based backend, web, and mobile systems. Specialized in large-scale platform migrations, API design, and CI/CD automation with GitHub Actions. Proven track record supporting high-volume, customer-facing products and leading complex technical initiatives.",
+    "summary": "Senior Software Engineer with 8+ years of experience building, modernizing, and operating .NET-based backend, web, and mobile systems. Specialized in large-scale platform migrations, API design, and CI/CD automation with GitHub Actions. Proven track record supporting high-volume, customer-facing SaaS products.",
     "email": "contact@codyrobibero.dev",
     "phone": "(201) 785-4944",
     "url": "https://codyrobibero.dev",
@@ -32,21 +32,20 @@
       "location": "Denver, CO",
       "description": "Leader in the vacation rental industry for channel management, CRM, property management, accounting, messaging, and websites",
       "position": "Senior Software Engineer",
+      "summary": "Senior engineer building and maintaining high-traffic SaaS features and third-party channel integrations for a vacation rental management platform.",
       "url": "https://ownerrez.com",
       "startDate": "2024-11-01",
-      "summary": "Focused on building and maintaining high-traffic SaaS features and third-party channel integrations for a vacation rental management platform",
       "highlights": [
         "Implemented customer-facing product features using ASP.NET MVC (Razor Pages) in collaboration with product and design teams",
-        "Delivered Booking.com contracting and onboarding workflows supporting partner integrations at scale",
-        "Implemented and maintained Vrbo onboarding flows to streamline customer adoption",
-        "Provided engineering support through technical help desk triage and issue resolution"
+        "Delivered Booking.com and Vrbo onboarding workflows to support scalable partner integrations",
+        "Provided engineering support through technical issue triage and resolution"
       ],
       "keywords": [
         ".NET",
         "ASP.NET MVC",
         "Razor Pages",
-        "Integrations",
-        "SaaS"
+        "SaaS",
+        "Integrations"
       ]
     },
     {
@@ -54,20 +53,21 @@
       "location": "Denver, CO",
       "description": "Trusted provider for end-to-end managed voice, analytics, and data solutions",
       "position": "Senior Software Engineer - Contract",
+      "summary": "Contract senior engineer modernizing high-volume telecom data pipelines and automating Microsoft 365 and Teams provisioning.",
       "url": "https://www.ringsquared.com",
       "startDate": "2024-03-01",
       "highlights": [
         "Streamlined ingestion pipelines processing millions of call records with improved reliability and throughput",
         "Automated delivery of customer call records for 30,000+ clients",
-        "Built and automated Microsoft Office 365 and Teams Direct Routing provisioning using Microsoft Graph API and PowerShell",
-        "Modernized legacy .NET Framework services by upgrading to .NET 8"
+        "Built Microsoft 365 and Teams Direct Routing provisioning using Microsoft Graph API and PowerShell",
+        "Modernized legacy services by upgrading .NET Framework applications to .NET 8"
       ],
       "keywords": [
         ".NET",
         "Microsoft Graph",
         "PowerShell",
-        "High-volume data",
-        "Telecommunications"
+        "Telecommunications",
+        "High-volume data"
       ]
     },
     {
@@ -78,20 +78,18 @@
       "url": "https://nymblscience.com",
       "startDate": "2021-03-01",
       "endDate": "2024-02-13",
-      "summary": "Full-stack development with a focus on scalable backend APIs and platform modernization",
+      "summary": "Full-stack development with a focus on scalable backend APIs and platform modernization.",
       "highlights": [
-        "Led full modernization of backend systems from .NET Framework to .NET 7, including migration to ASP.NET Core WebAPI and Entity Framework Core",
+        "Led full modernization of backend systems from .NET Framework to .NET 7, including ASP.NET Core WebAPI and Entity Framework Core",
         "Migrated mobile applications from Xamarin.Forms to .NET MAUI",
-        "Designed and implemented backend services supporting multiple web and mobile applications",
+        "Designed backend services supporting multiple web and mobile applications",
         "Built internal .NET MAUI tooling for PGP encryption and decryption workflows",
         "Automated ingestion and processing of user eligibility files",
-        "Designed and maintained CI/CD pipelines using GitHub Actions for mobile, API, and frontend deployments across Azure",
-        "Published mobile applications to BrowserStack, TestFlight, and Google Play alpha channels"
+        "Designed and maintained CI/CD pipelines using GitHub Actions for mobile, API, and frontend deployments across Azure"
       ],
       "keywords": [
-        ".NET 7",
+        ".NET",
         "ASP.NET Core",
-        "Entity Framework Core",
         ".NET MAUI",
         "Azure",
         "CI/CD"
@@ -105,13 +103,11 @@
       "url": "https://dial800.com",
       "startDate": "2017-12-18",
       "endDate": "2021-02-26",
-      "summary": "Responsible for design and implementation of all client-facing infrastructure",
+      "summary": "Designed and implemented client-facing platforms for call analytics, communications, and billing.",
       "highlights": [
-        "Developed a client portal for call history review, call routing management, and custom reporting",
-        "Built analytics services to aggregate and visualize call and SMS data in dynamic dashboards",
-        "Implemented scheduled reporting services driven by customer-defined templates",
-        "Designed and maintained SMS services for toll-free messaging",
-        "Built WebRTC-based web phone and video conferencing solutions",
+        "Developed a client portal for call history, routing management, and custom reporting",
+        "Built analytics services aggregating call and SMS data into dynamic dashboards",
+        "Designed and implemented WebRTC-based voice and video communication systems",
         "Developed APIs for phone number leasing, reservation, and search",
         "Implemented automated billing and invoice generation platforms"
       ],
@@ -131,7 +127,7 @@
       "url": "https://classlink.com",
       "startDate": "2016-10-24",
       "endDate": "2017-12-15",
-      "summary": "Developed OneSync, a web-based service for automated account provisioning into Microsoft Active Directory and Google Directory"
+      "summary": "Developed OneSync, a web-based service for automated account provisioning into Microsoft Active Directory and Google Directory."
     },
     {
       "name": "HVEA Engineers",
@@ -141,7 +137,7 @@
       "url": "https://hveapc.com",
       "startDate": "2016-08-15",
       "endDate": "2016-10-21",
-      "summary": "Designed and built an internal web application to manage samples, testing workflows, reports, and scheduling"
+      "summary": "Built an internal web application to manage samples, testing workflows, reports, and scheduling."
     }
   ],
   "education": [
@@ -178,18 +174,9 @@
       "name": "Mobile Development",
       "level": "Advanced",
       "keywords": [
-        "Xamarin.Forms",
         ".NET MAUI",
+        "Xamarin.Forms",
         "MVVM"
-      ]
-    },
-    {
-      "name": "Web Development",
-      "level": "Advanced",
-      "keywords": [
-        "Blazor",
-        "Razor Pages",
-        "ASP.NET Core MVC"
       ]
     },
     {
@@ -197,18 +184,9 @@
       "level": "Advanced",
       "keywords": [
         "Microsoft SQL Server",
-        "PostgreSQL"
+        "PostgreSQL",
+        "MySQL"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Danish",
-      "fluency": "Limited working proficiency"
     }
   ],
   "projects": [
@@ -223,9 +201,8 @@
       ],
       "highlights": [
         "Core contributor to a large open-source media platform used by hundreds of thousands of users worldwide",
-        "Led and maintained the Jellyfin plugin ecosystem with 30+ actively maintained plugins",
-        "Designed and implemented new server functionality while maintaining existing core features",
-        "Conducted design and code reviews for community and core contributors"
+        "Led and maintained a plugin ecosystem with 30+ actively maintained plugins",
+        "Designed and reviewed core server functionality and community contributions"
       ]
     }
   ],
