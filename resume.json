@@ -3,6 +3,7 @@
   "basics": {
     "name": "Cody Robibero",
     "label": "Senior Software Engineer",
+    "summary": "Senior Software Engineer with 8+ years of experience building, modernizing, and operating .NET-based backend, web, and mobile systems. Specialized in large-scale platform migrations, API design, and CI/CD automation with GitHub Actions. Proven track record supporting high-volume, customer-facing products and leading complex technical initiatives.",
     "email": "contact@codyrobibero.dev",
     "phone": "(201) 785-4944",
     "url": "https://codyrobibero.dev",
@@ -27,39 +28,73 @@
   },
   "work": [
     {
+      "name": "OwnerRez",
+      "location": "Denver, CO",
+      "description": "Leader in the vacation rental industry for channel management, CRM, property management, accounting, messaging, and websites",
+      "position": "Senior Software Engineer",
+      "url": "https://ownerrez.com",
+      "startDate": "2024-11-01",
+      "summary": "Focused on building and maintaining high-traffic SaaS features and third-party channel integrations for a vacation rental management platform",
+      "highlights": [
+        "Implemented customer-facing product features using ASP.NET MVC (Razor Pages) in collaboration with product and design teams",
+        "Delivered Booking.com contracting and onboarding workflows supporting partner integrations at scale",
+        "Implemented and maintained Vrbo onboarding flows to streamline customer adoption",
+        "Provided engineering support through technical help desk triage and issue resolution"
+      ],
+      "keywords": [
+        ".NET",
+        "ASP.NET MVC",
+        "Razor Pages",
+        "Integrations",
+        "SaaS"
+      ]
+    },
+    {
       "name": "RingSquared",
       "location": "Denver, CO",
-      "description": "Trusted provider for end-to-end managed voice, analytics & data solutions",
+      "description": "Trusted provider for end-to-end managed voice, analytics, and data solutions",
       "position": "Senior Software Engineer - Contract",
       "url": "https://www.ringsquared.com",
       "startDate": "2024-03-01",
       "highlights": [
-        "Streamlined ingestion process of millions of call records",
-        "Automated process of client call record delivery for 30,000+ customers",
-        "Automated Microsoft Office365 provisioning of Teams Direct Dial using Microsoft Graph API and the Microsoft Teams powershell module"
+        "Streamlined ingestion pipelines processing millions of call records with improved reliability and throughput",
+        "Automated delivery of customer call records for 30,000+ clients",
+        "Built and automated Microsoft Office 365 and Teams Direct Routing provisioning using Microsoft Graph API and PowerShell",
+        "Modernized legacy .NET Framework services by upgrading to .NET 8"
+      ],
+      "keywords": [
+        ".NET",
+        "Microsoft Graph",
+        "PowerShell",
+        "High-volume data",
+        "Telecommunications"
       ]
     },
     {
       "name": "Nymbl Science",
       "location": "Denver, CO",
-      "description": "A highly engaged digital health program that addresses the top anxiety points of aging",
+      "description": "A highly engaged digital health program addressing the top anxiety points of aging",
       "position": "Senior Software Engineer",
       "url": "https://nymblscience.com",
       "startDate": "2021-03-01",
       "endDate": "2024-02-13",
-      "summary": "Full-stack development with a focus on API functionality",
+      "summary": "Full-stack development with a focus on scalable backend APIs and platform modernization",
       "highlights": [
-        "Migration from .NET Framework to .NET 7",
-        "Migration from ASP.NET Framework to ASP.NET Core WebAPI",
-        "Migration from Xamarin.Forms to .NET Maui",
-        "Migration from Entity Framework 6 to Entity Framework Core 7",
-        "Internal application built in .NET Maui for PGP encryption and decryption",
-        "Automated processing of user eligibility files",
-        "Implement backend functionality to serve multiple web applications and mobile application",
-        "Implement views and functionality into the Xamarin.Forms mobile application",
-        "CI/CD pipeline to publish the .NET Maui mobile application to BrowserStack, TestFlight, and Play Store alpha channel utilizing GitHub Actions",
-        "CI/CD pipeline to publish the .NET ASP.NET Core WebAPI to Azure WebApp",
-        "CI/CD pipeline to publish multiple Vue.js applications to Azure Static Web Apps" 
+        "Led full modernization of backend systems from .NET Framework to .NET 7, including migration to ASP.NET Core WebAPI and Entity Framework Core",
+        "Migrated mobile applications from Xamarin.Forms to .NET MAUI",
+        "Designed and implemented backend services supporting multiple web and mobile applications",
+        "Built internal .NET MAUI tooling for PGP encryption and decryption workflows",
+        "Automated ingestion and processing of user eligibility files",
+        "Designed and maintained CI/CD pipelines using GitHub Actions for mobile, API, and frontend deployments across Azure",
+        "Published mobile applications to BrowserStack, TestFlight, and Google Play alpha channels"
+      ],
+      "keywords": [
+        ".NET 7",
+        "ASP.NET Core",
+        "Entity Framework Core",
+        ".NET MAUI",
+        "Azure",
+        "CI/CD"
       ]
     },
     {
@@ -70,37 +105,43 @@
       "url": "https://dial800.com",
       "startDate": "2017-12-18",
       "endDate": "2021-02-26",
-      "summary": "Responsible for all client-facing infrastructure",
+      "summary": "Responsible for design and implementation of all client-facing infrastructure",
       "highlights": [
-        "Client Portal - Allow clients to view call history, manage call routing, and create report templates",
-        "Dashboard Service - Service to summarize customer call and sms data into a customizable and dynamic dashboard",
-        "Report Service - Generate scheduled dynamic reports based on client templates",
-        "SMS Service - Send and receive sms to Toll-Free numbers",
-        "Web Phone - WebRTC to SIP based phone client",
-        "Conference - WebRTC video conferencing",
-        "Number API - API to lease, reserve, and search for available phone numbers",
-        "Billing Platform - Automated invoice generation and customer rate management"
+        "Developed a client portal for call history review, call routing management, and custom reporting",
+        "Built analytics services to aggregate and visualize call and SMS data in dynamic dashboards",
+        "Implemented scheduled reporting services driven by customer-defined templates",
+        "Designed and maintained SMS services for toll-free messaging",
+        "Built WebRTC-based web phone and video conferencing solutions",
+        "Developed APIs for phone number leasing, reservation, and search",
+        "Implemented automated billing and invoice generation platforms"
+      ],
+      "keywords": [
+        ".NET",
+        "WebRTC",
+        "Telephony",
+        "APIs",
+        "Analytics"
       ]
     },
     {
       "name": "ClassLink Inc",
       "location": "Clifton, NJ",
-      "description": "Digital education solution",
+      "description": "Digital education solutions",
       "position": "Software Engineer",
       "url": "https://classlink.com",
       "startDate": "2016-10-24",
       "endDate": "2017-12-15",
-      "summary": "Responsible for development of OneSync, a web-based service for automated account creation into Microsoft Active Directory and Google Directory"
+      "summary": "Developed OneSync, a web-based service for automated account provisioning into Microsoft Active Directory and Google Directory"
     },
     {
       "name": "HVEA Engineers",
       "location": "Chestnut Ridge, NY",
-      "description": "Consulting Engineers and Construction Material Testing",
+      "description": "Consulting engineers and construction material testing",
       "position": "IT Specialist",
       "url": "https://hveapc.com",
       "startDate": "2016-08-15",
       "endDate": "2016-10-21",
-      "summary": "Created an internal website for collecting and managing samples, tests, reports, and schedules"
+      "summary": "Designed and built an internal web application to manage samples, testing workflows, reports, and scheduling"
     }
   ],
   "education": [
@@ -108,51 +149,55 @@
       "institution": "Rensselaer Polytechnic Institute",
       "url": "https://rpi.edu/",
       "area": "Computer Science",
-      "studyType": "Bachelors of Science",
+      "studyType": "Bachelor of Science",
       "startDate": "2012-09",
       "endDate": "2016-05"
     }
   ],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "Backend & APIs",
+      "level": "Expert",
       "keywords": [
-        "ASP.NET Core",
         "C#",
-        "OpenIddict",
-        "Azure"
+        "ASP.NET Core",
+        "REST APIs",
+        "OpenIddict"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Azure",
+        "GitHub Actions",
+        "CI/CD"
       ]
     },
     {
       "name": "Mobile Development",
+      "level": "Advanced",
       "keywords": [
-        "Xamarin",
-        "Maui",
-        "MVVM",
-        "C#"
+        "Xamarin.Forms",
+        ".NET MAUI",
+        "MVVM"
       ]
     },
     {
       "name": "Web Development",
+      "level": "Advanced",
       "keywords": [
         "Blazor",
         "Razor Pages",
-        "ASP.NET Core MVC",
-        "ASP.NET Web Forms"
+        "ASP.NET Core MVC"
       ]
     },
     {
-      "name": "Database",
+      "name": "Databases",
+      "level": "Advanced",
       "keywords": [
         "Microsoft SQL Server",
         "PostgreSQL"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "keywords": [
-        "GitHub Actions",
-        "Azure Pipelines"
       ]
     }
   ],
@@ -163,7 +208,7 @@
     },
     {
       "language": "Danish",
-      "fluency": "Limited working"
+      "fluency": "Limited working proficiency"
     }
   ],
   "projects": [
@@ -177,16 +222,17 @@
         "Lead Plugin Team"
       ],
       "highlights": [
-        "Implement new server functionality and maintain existing functionality",
-        "Create new and maintain 30+ plugins to enhance server functionality",
-        "Conduct design and code reviews"
+        "Core contributor to a large open-source media platform used by hundreds of thousands of users worldwide",
+        "Led and maintained the Jellyfin plugin ecosystem with 30+ actively maintained plugins",
+        "Designed and implemented new server functionality while maintaining existing core features",
+        "Conducted design and code reviews for community and core contributors"
       ]
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
-    "version": "2024.09.19",
-    "lastModified": "2024-09-19",
+    "version": "2026.01.31",
+    "lastModified": "2026-01-31",
     "theme": "jsonresume-theme-full"
   }
 }
