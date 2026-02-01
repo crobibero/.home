@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build:html": "cross-env TZ=UTC resumed render --output index.html",
-    "build:pdf": "cross-env TZ=UTC resumed export resume.json --output resume.pdf",
+    "build:pdf": "cross-env TZ=UTC resumed export resume.json --output resume.pdf --puppeteer-arg=--no-sandbox",
     "validate": "resumed validate"
   },
   "dependencies": {
