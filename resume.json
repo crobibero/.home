@@ -210,6 +210,15 @@
     "canonical": "https://raw.githubusercontent.com/crobibero/.home/master/resume.json",
     "version": "2026.01.31",
     "lastModified": "2026-01-31",
-    "theme": "jsonresume-theme-full"
+    "theme": "jsonresume-theme-full",
+    "pdfRenderOptions": {
+      "format": "letter",
+      "margin": {
+        "bottom": "0.25in",
+        "left": "0.25in",
+        "right": "0.25in",
+        "top": "0.25in"
+      }
+    }
   }
 }

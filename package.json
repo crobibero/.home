@@ -1,13 +1,15 @@
 {
   "scripts": {
-    "build": "cross-env TZ=UTC resumed render --output index.html",
+    "build:html": "cross-env TZ=UTC resumed render --output index.html",
+    "build:pdf": "cross-env TZ=UTC resumed export resume.json --output resume.pdf",
     "validate": "resumed validate"
   },
   "dependencies": {
     "jsonresume-theme-full": "^0.0.4",
-    "resumed": "^3.0.1"
+    "puppeteer": "^24.36.1",
+    "resumed": "^6.1.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^10.1.0"
   }
 }
